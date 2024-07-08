@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import InputField from './Components/InputField'
+import 'bootstrap/dist/css/bootstrap.css'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='px-1 px-md-5 container-fluid d-flex justify-content-center pb-5'>
+      <InputField/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

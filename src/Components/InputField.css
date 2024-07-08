@@ -1,0 +1,15 @@
+.inp {
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+}
+.res {
+    max-height: 500px;
+    /* width: 100%; */
+    border-radius: 15px;
+    border: 2px white solid;
+}
+input,input:focus {
+    border: none;
+    outline: none;
+}

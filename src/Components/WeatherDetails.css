@@ -1,0 +1,10 @@
+.temperature {
+    font-size: 110px;
+    line-height: 80px;
+}
+@media (max-width: 768px) {
+    .temperature {
+        font-size: 60px;
+        line-height: 40px;
+    }
+}
